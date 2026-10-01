@@ -23,7 +23,7 @@ os.system("clear")
 message = input("What do you want to send for a message?: ")
 
 # SPAM
-while num != msg_limit:
+while num != int(msg_limit):
   num += 1
   response = requests.post('https://textbelt.com/text', {
       'phone': phonenumber,
