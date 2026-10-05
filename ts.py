@@ -12,7 +12,7 @@ num = 0
 message = config["MESSAGE"]
 msg_limit = message["msg_limit"]
 _time = config["TIME"]
-time_limit = _time["time"]
+time_limit = _time["time_limit"]
 
 # GET KEY
 _key = config["KEY"]
