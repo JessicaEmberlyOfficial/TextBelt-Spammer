@@ -17,5 +17,5 @@ python ts.py
 
 ### Usage Notice
 ```
-Please make sure to customize your (*.ini) file so you can set your preferences.
+Please make sure to customize your (*.ini) file, and your payload file so you can set your preferences.
 ```
