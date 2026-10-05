@@ -1,6 +1,7 @@
 import os
 import requests
 import configparser
+import time
 
 # SETUP CONFIG
 config = configparser.ConfigParser()
@@ -10,6 +11,8 @@ num = 0
 # SET LIMIT
 message = config["MESSAGE"]
 msg_limit = message["msg_limit"]
+_time = config["TIME"]
+time_limit = _time["time"]
 
 # GET KEY
 _key = config["KEY"]
@@ -24,6 +27,7 @@ message = input("What do you want to send for a message?: ")
 
 # SPAM
 while num != int(msg_limit):
+  time.sleep(time_limit)
   num += 1
   response = requests.post('https://textbelt.com/text', {
       'phone': phonenumber,
