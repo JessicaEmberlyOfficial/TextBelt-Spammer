@@ -1,4 +1,4 @@
-# TextBelt-Spammer
+# TextBelt Spammer
 A simplistic sms spammer using TextBelt and Python.
 
 ## Requirements
