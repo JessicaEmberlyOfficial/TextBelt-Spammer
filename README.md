@@ -1,6 +1,9 @@
 # TextBelt Spammer
 A simplistic sms spammer using TextBelt and Python.
 
+## Notice
+Entertainment / legal use only.
+
 ## Requirements
 * Python
 
