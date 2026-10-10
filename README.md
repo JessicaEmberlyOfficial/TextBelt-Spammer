@@ -6,6 +6,7 @@ Entertainment / legal use only.
 
 ## Requirements
 * Python
+* Text Belt Key
 
 ## Usage
 ```
